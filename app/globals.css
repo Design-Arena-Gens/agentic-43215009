@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  background-color: #f5f3ff;
+  color: #111827;
+}
+
+body {
+  min-height: 100vh;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.signature-preview {
+  font-feature-settings: "swsh";
+  font-variant-ligatures: contextual;
+}
